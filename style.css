@@ -1,0 +1,662 @@
+body {
+    font-family: 'Raleway', sans-serif;
+    width: 1440px;
+    height: 5020px;
+    background-color: #F5F5F5;
+}
+header{
+    width: 1440px;
+    height: 88px;
+    margin: 0px 0px 0px 150px;
+    padding: 32px;
+    margin-left: 150px;
+
+}
+.encabezadoPrincipal{
+    display: flex;
+    width: 1136px;
+    height: 24px;
+    padding: 32px 0px 32px 0px;
+    overflow: hidden;
+    margin-left: 150px;
+    
+    
+}
+.encabezadoPrincipalLogoyTexto{
+    display: flex;
+    width: 134px;
+    height: 24px;
+    padding: 0px;
+    margin-right: auto; /* Empuja los elementos hacia el margen izquierdo */
+    
+}
+.encabezadoPrincipalLogo{
+    display: block;
+    width: 24px;
+    height: 24px;
+    
+}
+.encabezadoPrincipalTexto{
+    display: block;
+    width: 140px;
+    height: 19px;
+    overflow: hidden;
+    padding-top: 2px;
+
+}
+.encabezadoPrincipalTexto p{
+    font-size: 16px;
+    font-weight: 700;
+    height: 19px;   
+}
+.topnav{
+
+    width: 753px;
+    height: 19px;
+    margin-left: auto; /* Empuja la barra de navegación hacia el margen derecho */
+    
+}
+.topnav ul{
+       display: inline;
+}
+.topnav li{
+    display: inline;
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    font-weight: medium;
+
+}
+.topnav ul li:last-child a {
+    font-weight: bold; /* Aplica negrita al último elemento de la lista */
+}
+header p{
+    display: inline;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.encabezado{
+    display: flex;
+    width: 1136px;
+    height: 368px;
+    margin-left: 150px;
+
+}
+.encabezadoSecundario{
+    display: block;
+    width: 751px;
+    height: 246px;
+}
+.encabezadoSecundario h1 {
+    font-size: 52px;
+    font-weight: 700;
+    font-weight: bold;
+    margin-bottom: 20px;
+       
+}
+.encabezadoSecundario p{
+    width: 751px;
+    height: 52px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 22px;
+    font-weight:400;
+    margin-bottom: 20px;
+   
+}
+.linksExternos{
+    height: 24px;
+    margin-top: 24px;
+
+}
+.linksExternos li,
+.linksExternos ul {
+    display: inline;
+    font-size: 16px;
+    font-weight: 500;
+    padding: 0px;
+}
+.miFoto{
+    display: block;
+    height: 368px;
+    width: 368px;
+    border-radius: 50%;
+}
+
+main{
+    width: 1440px;
+    height: 4328px;
+}
+
+#about {
+    width: 1440px;
+    height: 383px;
+    padding: 0px;
+    padding-top: 64px;
+    padding-left: 150px;
+    margin: 0px 0px 0px 0px;
+    background-color: #EAF2FD;
+}
+#about h3{
+    width: 137px;
+    height: 36px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 32px;
+    font-weight:bold;   
+}
+#about p{
+    width: 751px;
+    height: 133px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    font-weight:400;
+    padding-top: 24px;   
+}
+.autografo{
+    width: auto;
+    height: 52px;
+    
+}
+#skills{
+    width: 1136px;
+    height: 344px;
+    text-align: center;
+    font-size: 32px;
+    margin: 32px 0px 0px 152px; 
+}
+#skills p{
+    width: 1136px;
+    height: 38px;
+    text-align: center;
+    font-size: 32px;
+    font-family: 'Raleway', sans-serif;
+    font-weight:700;  
+    margin-bottom: 32px;  
+}
+/* Estilos para los bloques de habilidades */
+.habilidad {
+    text-align: center;
+    display: inline-block;
+    margin: 0px;
+    width: 176px;
+    height: 174px;
+    padding: 0px 0px 0px 0px;
+    background-color: white;
+}
+.habilidad p {
+    padding-left: 16px;
+    font-size: 16px;
+    font-weight: 700;
+}
+.imagen1 {
+    width: 32px;
+    padding-left: 16px;
+
+}
+/* Aplicar margen izquierdo solo a habilidades excepto el primero */
+#skills .habilidad:not(:first-of-type) {
+    margin-left: 4px;
+}
+
+/* Estilos para el icono */
+.habilidad i {
+    
+    font-size: 48px;
+    color: #333; /* Color del icono */
+    
+}
+/* Estilos para el texto */
+#skills .imagen1 {
+    font-size: 16px;
+    width: 24px;
+    height: 36px;
+    text-align: left;
+    margin-top: 90px;
+    margin-right: 128px;
+}
+#skills .habilidad p{
+
+    font-size: 16px;
+    color:  #464646; /* Color del texto */
+    text-align: left;
+    height: 19px;
+    width: 144px;
+    margin-top: 8px;
+    margin-bottom: 16px;
+}
+
+#hobbies{
+    width: 1136px;
+    height: 344px;
+    text-align: center;
+    font-size: 32px;
+    margin: 0px 0px 0px 152px; 
+}
+#hobbies p{
+    width: 1136px;
+    height: 38px;
+    text-align: center;
+    font-size: 32px;
+    font-family: 'Raleway', sans-serif;
+    font-weight:700;
+    margin-bottom: 32px;  
+    
+
+}
+/* Estilos para los bloques de habilidades */
+
+/* Aplicar margen izquierdo solo a habilidades excepto el primero */
+
+#hobbies .habilidad:not(:first-of-type) {
+    margin-left: 8px;
+}
+
+/* Estilos para el texto */
+#hobbies  .imagen1{
+    
+    width: 32px;
+    height: auto;
+    text-align: left;
+    margin-top: 90px;
+    margin-right: 128px;
+    justify-content: left;
+}
+#hobbies .habilidad p{
+    font-size: 16px;
+    color:  #464646; /* Color del texto */
+    text-align: left;
+    height: 19px;
+    width: 144px;
+    margin-top: 8px;
+    margin-bottom: 16px;
+    text-overflow: ellipsis;
+    overflow: hidden; /* Evitar que el texto desborde */
+}
+
+#formacionSector {
+    width: 1440px;
+    height: 581px;
+    padding: 82px 0px 82px 152px;
+    background-color: #EAF2FD;
+    ;
+    
+}
+#formacionSector p {
+    width: 1136px;
+    height: 38px;
+    text-align: center;
+    font-size: 32px;
+    font-family: 'Raleway', sans-serif;
+    font-weight:700;
+    margin-bottom: 32px;  
+}
+
+.formacion{
+    display: block;
+    width: 368px;
+    height: 347px;
+    margin-right: 16px;
+}
+.formacionContainer{
+    display: flex;
+}
+#formacionSector .formacion .imagenFormacion{
+    width: 368px;
+    height: 286px;
+    padding: 0px;
+}
+#formacionSector .formacion h3{
+    width: 178px;
+    height: 26px;
+    padding: 0px;
+    font-size: 22px;
+    font-weight: bold;
+}
+#formacionSector .formacion p{
+    width: 178px;
+    height: 19px;
+    padding: 0px;
+    font-size: 16px;
+    font-weight: 500;
+    text-align: left;
+}
+#experiencia{
+    height: 872px;
+    width: 1136px;
+    display: flex; /* Utilizamos flexbox para alinear los elementos */
+    flex-direction: column; /* Alineamos los elementos en una columna */
+    align-items: center; /* Centramos los elementos horizontalmente */
+    margin-left: 152px;
+    margin-top: 32px;
+    background-color: D3D3D3;
+    ;
+}
+.bloque {
+    display: flex; /* Utilizamos flexbox para alinear los elementos */
+    justify-content: space-between; /* Distribuimos los elementos horizontalmente */
+    width: 1136px; /* Hacemos que el bloque ocupe todo el ancho disponible */
+    height:406px;
+    margin-bottom: 32px; /* Agregamos un margen inferior para separar los bloques */
+    flex-direction: center;
+    padding-top: 24px;
+}
+.experienciaTitulo{
+    width: 1136px;
+    height: 38px;
+    text-align: center;
+    font-size: 32px;
+    font-family: 'Raleway', sans-serif;
+    font-weight:700;
+    margin-bottom: 32px;  
+}
+.experienciaIzquierdaTitulo{
+    font-size: 24px;
+    font-weight: bold;
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
+.experienciaIzquierdaDerechaTitulo p{   
+    font-size: 24px;
+    font-weight: 700;
+    padding: 8px;
+    margin-top: 16px;
+}
+/* Estilo base de los botones */
+.btnEncriptar,
+.btnDesencriptar,
+.btnCopiar,
+.btnRepositorio,
+.btnVerDemo,
+.btnRepositorioAhorcado,
+.btnVerDemoAhorcado,
+.btnReiniciar,
+.btnProbarSuerte
+{
+    background-color: #0b02c0;
+    color: white;
+    width: 105px;
+    height: 50px;
+    border-radius: 12px;
+    transition: background-color 0.3s ease;
+}
+
+/* Efecto hover para aclarar y simular un efecto fosforescente */
+.btnEncriptar:hover,
+.btnDesencriptar:hover,
+.btnCopiar:hover,
+.btnRepositorioAhorcado:hover,
+.btnProbarSuerte:hover,
+.btnReiniciar:hover,
+.btnVerDemoAhorcado:hover {
+    background-color: #4272f5; /* Color más claro para el efecto de aclarado */
+}
+.experienciaIzquierda {
+    width: 752px;
+    height: 406px;
+    padding-left: 34px;
+    background-color: #D3D3D3;
+}
+.experienciaIzquierdaBloque{
+    width: 688px;
+    height: 288px;
+    background-color: white;
+    display:flex;
+    justify-content: center;
+    justify-content: center; /* Centrar horizontalmente */
+    align-items: center; /* Centrar verticalmente */
+}
+.experienciaIzquierdaIzquierda {
+    width: 328px;
+    height: 200px;  
+    flex-direction: center;
+    background-color: #464646;
+    
+}
+.experienciaIzquierdaIzquierdaTitulo, .experienciaIzquierdaIzquierdabotones{
+    padding: 8px;
+}
+#encriptador{
+    padding: 8px;
+    margin-left: 16px;
+}
+.experienciaIzquierdaDerecha {
+    width: 328px;
+    height: 200px;  
+    flex-direction: center;
+    background-color: #464646;
+    padding-left: 24px;
+}
+.experienciaDerecha {
+    display:flex;
+    flex-direction: column; 
+    width: 384px;
+    height: 406px;
+    background-color: rgba(213, 210, 210, 0.758);
+
+    justify-content: center;
+
+}
+.experienciaDerechaBotones{
+    display: flex;
+    flex-direction: row;
+    width: 368px;
+    height: 51px;
+    margin-left: 8px;
+    margin-top: 8px;
+}
+.experienciaDerechaTitulo h3{
+    font-size: 24px;
+    font-weight: bold;
+    margin-left: 8px;
+}
+.experienciaDerechaTexto{
+    margin-left: 8px;
+    margin-top: 8px;
+}
+.experienciaDerecha p{
+    font-size: 16px;
+    font-weight: normal;
+}
+.bloqueAhorcado{
+    display: flex; /* Utilizamos flexbox para alinear los elementos */
+    justify-content: space-between; /* Distribuimos los elementos horizontalmente */
+    width: 1136px; /* Hacemos que el bloque ocupe todo el ancho disponible */
+    height:406px;
+    margin-bottom: 32px; /* Agregamos un margen inferior para separar los bloques */
+    flex-direction: center;
+    background-color: rgb(239, 239, 239);
+
+}
+.experienciaIzquierdaAhorcado{
+    width: 384px;
+    height: 406px;    
+}
+.experienciaIzquierdaTituloAhorcado{
+    font-size: 24px;
+    font-weight: bold;
+}
+.experienciaIzquierdaBloqueAhorcado{
+    display:flex;
+    width: 384px;
+    height: 288px;
+    background-color: #F5F5F5;
+    justify-content: center; /* Centrar horizontalmente */
+    align-items: center; /* Centrar verticalmente */
+}
+.experienciaIzquierdaIzquierda{
+    width: 328px;
+    height: 200px;  
+    flex-direction: center;
+    background-color: #ac1313;
+
+}
+.experienciaDerechaAhorcado{
+    display:flex;
+    flex-direction: column; 
+    justify-content: center;
+    width: 752px;
+    height: 406px;
+    background-color: rgba(213, 210, 210, 0.758);
+    padding-left: 64px;
+}
+#contacto{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1440px;
+    height: 788px;
+    background-color: #EAF2FD;
+    padding-top: 64px;
+    margin-top: 64px;
+}
+.contactoIzquierdo{
+    width: 464px;
+    height: 593px;
+}
+.contactoDerecho{
+    width: 656px;
+    height: 593px;
+
+}
+.textoCaja{
+    width: 656px;
+    height: 84px;
+    margin-left: 16px;
+    
+}
+.textoCaja h1{ 
+    font-size: 32px;
+    font-weight: 700;
+}
+.textoCaja h2{ 
+    font-size: 16px;
+    font-weight: 500;
+}
+.contactForm{
+    width: 656px;
+    height:auto;
+    margin-left: 16px;
+}
+.contactForm #nombre {width: 656px}
+.contactForm #asunto {
+    width: 656px;
+    height: 56px}
+.contactForm input[type="email"],
+.contactForm textarea {
+    width: 656px;
+}
+
+.btnFormulario
+{
+    background-color: #0b02c0;
+    color: white;
+    width: 105px;
+    height: 50px;
+    border-radius: 12px;
+    transition: background-color 0.3s ease;
+}
+.btnFormulario:Hover{
+    background-color: #4272f5; /* Color más claro para el efecto de aclarado */
+}
+#nombre2 {
+    margin-top: -20px; /* Ajusta este valor según sea necesario */
+    border-top: none;
+    height: 16px;
+    width: auto;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    width: 656px;
+}
+#nombre1 {
+    border-bottom: none;
+    height: 16px;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    width: 656px;
+}
+#email2 {
+    margin-top: -20px; /* Ajusta este valor según sea necesario */
+    border-top: none;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    width: 656px;
+    height: 16px;
+}
+#email1 {
+    border-bottom: none;
+    color: #0000FF; /* Color azul estándar */
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    width: 656px;
+    height: 16px;
+}
+.contactForm input,
+.contactForm textarea,
+.contactForm button {
+    border: none;
+    border-radius: 4px;
+}
+/* Cambiar el color del placeholder del campo de correo electrónico */
+#email1:focus {
+    color: #0000FF; /* Color azul cuando el campo está enfocado */
+}
+
+#asunto:focus {
+    height: 100px; /* Altura aumentada al hacer clic */
+  }
+
+.imagenAhorcado{
+    height: 40%;
+    width: 40%;
+    padding-bottom: 16px;
+}
+.ahorcados {
+    display: flex;
+    flex-direction: column;
+
+}
+
+#mensajePerdiste {
+     display: none;
+    position: fixed;
+    width: 35%;
+    height: 15vh; 
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    background-color: red;
+    color: white;
+    font-size: 72px; /* Tres veces más grande */
+    font-weight: bold; /* En negrita */
+    text-align: center; /* Centrado horizontalmente */
+    line-height: 1.5; /* Espaciado entre líneas para centrar verticalmente */
+    z-index: 9999;
+    padding-top: calc(25vh / 4); /* Calcula el 1/4 de la altura */
+}
+textarea[name^="dibujo"] {
+    color: white;
+}
+
+.experienciaIzquierdaDerechaBotones{
+    padding: 16px;
+}
+.contactoImagen{
+    width: 464px;
+}
+footer {
+    text-align: center;
+    margin-top: 32px;
+    height: 102px;
+    padding: 32px;
+}
+.rodapie{
+    margin-top: 32px;
+}
+footer p {
+    margin: 0;
+    font-size: 16px;
+    font-family: 500;
+}
+.textoRodapie{
+    height: 38px;
+}
