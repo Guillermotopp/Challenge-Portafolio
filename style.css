@@ -53,7 +53,10 @@ header{
 
     width: 753px;
     height: 19px;
-    margin-left: auto; /* Empuja la barra de navegación hacia el margen derecho */
+
+    display: flex;
+    justify-content: flex-end; /* Para alinear los elementos al final */
+    margin-right: 8px;
     
 }
 .topnav ul{
@@ -450,7 +453,7 @@ main{
 }
 .experienciaDerechaTexto{
     margin-left: 8px;
-    margin-top: 8px;
+    margin-top: 0px;
 }
 .experienciaDerecha p{
     font-size: 16px;
@@ -461,7 +464,8 @@ main{
     justify-content: space-between; /* Distribuimos los elementos horizontalmente */
     width: 1136px; /* Hacemos que el bloque ocupe todo el ancho disponible */
     height:406px;
-    margin-bottom: 32px; /* Agregamos un margen inferior para separar los bloques */
+    margin-top: 32px;
+    margin-bottom: 0px; /* Agregamos un margen inferior para separar los bloques */
     flex-direction: center;
     background-color: rgb(239, 239, 239);
 
@@ -659,4 +663,478 @@ footer p {
 }
 .textoRodapie{
     height: 38px;
+}
+
+@media screen and (max-width: 769px) and (max-height: 4380px) {
+    main {
+        padding: 0px;
+        background-color: #F5F5F5;
+        width: 768px;
+    }
+    .encabezadoPrincipal{
+        width: 768px;
+        margin: 0px;
+        padding: 18.5px 32px 0px 32px;
+        height: 56px;
+    }
+    .topnav{
+        display: none;
+    }
+    .encabezadoPrincipalTexto{
+        margin-top: 2.5px;
+        font-family: 'Raleway', sans-serif;
+        font-size: 16px;
+        font-weight: 700;
+        width: 100%; /* Esto hará que el texto ocupe todo el ancho del contenedor */
+    }
+    .encabezadoPrincipalLogoyTexto {
+        margin-right: 0px;
+        width: 100%;
+    }
+
+    .email-link{
+        margin-right: 32px;
+        font-family: 'Raleway', sans-serif;
+        font-size: 16px;
+        font-weight: 700;
+    }
+
+    .encabezado {
+        display: flex;
+        
+        align-items:flex-start;
+        width: 100%;
+        margin: 0px;
+        height: 210px;
+    }
+    .encabezadoMiFoto{
+        margin:32px;  /* Añade espacio entre la foto y el encabezado secundario */
+    }
+    .miFoto {
+        width: 142px;
+        height: 142px;
+    }
+
+    .encabezadoSecundario {
+        text-align: left; /* Centra el texto */
+        width: 524px;
+        margin: 40px 0px 8px 32px ;
+    }
+    .encabezadoSecundario h1{
+        font-family: 'Raleway', sans-serif;
+        font-size: 22px;
+        font-weight: 700;
+        line-height: 25.83px;
+        text-align: left;
+        width: 100%;
+        margin-bottom: 8px;
+    }
+    .encabezadoSecundario p{
+        font-family: 'Raleway', sans-serif;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 16.44px;
+        text-align: left;
+        width: 100%;
+        margin-bottom: 8px;
+        height: 38px;
+    }
+    .linksExternos {
+        text-align: left;
+        height: 24px;
+        align-items: center; /* Centrar horizontalmente */
+        margin: 0px;
+    } 
+    
+    .linksExternos ul {
+        height: 24px;
+    }
+    .linksExternos li {
+        font-family: 'Raleway', sans-serif;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 18.74px;
+        align-items: center; /* Centrar verticalmente */
+        height: 24px;
+    }
+    .linksExternos a{
+        height: 24px;
+    }
+    .flechaLink{
+        width: 24px;
+        height: 24px;
+    }
+    #about{
+        width: 768px;
+        height: 286px;
+        padding: 32px 0px 0px 32px;
+    }
+    #about h3{
+        font-family: 'Raleway', sans-serif;
+        font-size: 22px;
+        font-weight: 700;
+    }
+    #about p{
+        font-family: 'Raleway', sans-serif;
+        font-size: 14px;
+        font-weight: 400;
+    }
+    .autografo{
+        width: auto;
+        height: 52px;
+    }
+    #skills{
+        width: 768px;
+        height: 390px;
+        margin: 0px;
+    }
+    #skills p{
+        width: 768px;
+        margin-top: 32px;
+    }
+    #skills h3{
+        font-family: 'Raleway', sans-serif;
+        font-size: 22px;
+        font-weight: 700;
+        line-height: 25.83px;
+        margin-top: 32px;
+
+    }
+    .habilidad{
+        width: 224px;
+        margin-top: 32px;
+        height: 118px;
+    }
+    
+    #skills .imagen1{
+        width: 24px;
+        height: auto;
+        margin: 0px;
+        padding: 0px;
+        margin-top: 38px;
+    }
+    #hobbies{
+        height:390px;
+        width: 768px;
+        margin: 0px;
+    }
+    #hobbies h3{
+        font-family: 'Raleway', sans-serif;
+        font-size: 22px;
+        font-weight: 700;
+        line-height: 25.83px;
+        margin-top: 32px;
+    }
+    #hobbies .habilidad{
+        width: 224px;
+        margin-top: 43px;
+        height: 118px;
+
+    }
+    #hobbies .imagen1{
+        width: 24px;
+        height: auto;
+        margin: 0px;
+        padding: 0px;
+        margin-top: 43px;
+        margin-right: 176px;
+    }
+    #formacionSector {
+        height:291px;
+        width: 768px;
+        margin: 0px;
+        padding: 0px;
+
+    }
+    #formacionSector .tituloSeccion{
+        margin-top: 0px;
+        padding: 32px;
+    }
+    #formacionSector h3{
+        font-family: 'Raleway', sans-serif;
+        font-size: 22px;
+        font-weight: 700;
+        line-height: 25.83px;
+        text-align: center;
+    }
+    #formacionSector .formacion{
+        width: 224px;
+        height: 169px;
+        opacity: 0px;
+        margin: 0px;
+        margin-right: 16px;
+        margin-left: 0px;
+    }
+    #formacionSector .formacion .imagenFormacion{
+        width: 224px;
+        height: 118px;
+    }
+    #formacionSector .formacionContainer{
+        margin-left: 32px;
+
+    }
+    #formacionSector .formacion h3{
+        margin: 0px;
+        padding: 0px;
+        font-family: Raleway;
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 18.78px;
+        text-align: left;
+
+    }
+    #formacionSector .formacion p{
+        margin: 0px;
+        
+        padding: 0px;
+        
+        font-family: Raleway;
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 16.44px;
+        text-align: left;
+    }
+    #experiencia{
+        width: 768px;
+        height: 1000px;
+        padding: 0px;
+        margin: 0px;
+    }
+    #experiencia  .experienciaTitulo{
+        font-family: Raleway;
+        font-size: 22px;
+        font-weight: 700;
+        line-height: 25.83px;
+        text-align: center;
+        width: 768px;
+        margin-top: 32px;
+        margin-bottom: 8px;
+
+    }
+    #experiencia  .experienciaTitulo h3{
+
+        font-family: Raleway;
+        font-size: 22px;
+        font-weight: 700;
+        line-height: 25.83px;
+        text-align: center;
+        width: 768px;
+
+    }
+
+    .bloque{
+        width: 100%;
+        height: 427px;
+        display: flex;
+        flex-direction: column;
+        padding: 0px;
+        margin: 0px;
+    }
+    .experienciaIzquierda{
+        width: 100%;
+        margin: 0px;
+        padding: 0px;
+        height: 320px;
+    }
+    .experienciaIzquierdaBloque{
+        width: 100%;
+        height: 320px;
+    }
+    .experienciaDerecha{
+        width: 100%;
+        margin: 0px;
+        padding: 0px;
+    }
+    #comentario{
+        width: 84%;
+        text-align: center;
+        margin-left: 16px;
+    }
+    .experienciaIzquierdaIzquierdaTitulo{
+        width: 277px;
+        text-align: center;
+        
+    }
+    .experienciaIzquierdaTitulo h3{
+        text-align: center;
+        font-family: Raleway;
+        
+
+    }
+    .experienciaIzquierdaIzquierdaTitulo p{
+
+        text-align: center;
+        font-family: Raleway;
+        
+    }
+    #experiencia .experienciaIzquierdaDerecha{
+        width: 277px;
+        margin: 0px;
+        padding: 0px;
+        height: 168px;
+        display: flex;
+        flex-direction: column; /* Cambiamos la dirección del flex a columna */
+
+    }
+    .experienciaIzquierdaDerechaTitulo p{
+        margin: 16px 0px 8px 16px;
+
+        padding: 0px;
+        font-family: Raleway;
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 18.78px;
+        text-align: left;
+    }
+    .experienciaIzquierdaIzquierdabotones{
+        width: 212px;
+        height: 36px;
+    }
+
+    #experiencia .btnCopiar{
+        margin: 8px 0px 0px 8px;
+    }
+
+    #experiencia .experienciaDerecha{
+        height: 91px;
+        margin-bottom: 0px;
+    }
+    #experiencia .experienciaDerechaTitulo{
+        height: 20px;
+        margin: 0px;
+        padding: 0px;
+    }
+    #experiencia .experienciaDerechaTitulo h3{
+        font-size: 16px;
+        padding: 0px;
+        margin: 0px;
+    }
+
+    .experienciaDerechaTexto p{
+        padding: 0px;
+        font-family: Raleway;
+        font-size: 14px;
+        font-weight: medium;
+        line-height: 16.44px;
+        text-align: left;
+        margin: 0px;
+    }
+    #experiencia .experienciaDerechaBotones{
+        width: 560px;
+        height: 40px;
+    }
+
+    #experiencia .bloqueAhorcado{
+        width: 768px;
+        height: 427px;
+    }
+    #experiencia .experienciaIzquierdaBloqueAhorcado{
+        height: 91px;
+        width: 768px;
+    }
+
+    #experiencia .experienciaIzquierdaIzquierdaTitulo{
+        padding: 0px;
+        margin-top: 16px;
+    }
+    #experiencia .experienciaIzquierdaIzquierda{
+        height: 168px;
+        width: 100%;
+    }
+    .bloqueAhorcado {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .experienciaDerechaAhorcado {
+        order: 1; /* Cambia el orden del elemento */
+        width: 100%;
+        padding: 0px;
+    }
+
+    .experienciaIzquierdaAhorcado {
+        order: 2; /* Cambia el orden del elemento */
+        width: 100%;
+        height: 91px;
+    }
+    #experiencia .experienciaDerechaAhorcado {
+        display: flex;
+        flex-direction: row; /* Establece la dirección de los elementos como fila */
+        align-items:center; /* Alinea los elementos verticalmente */
+        justify-content: flex-start;
+        height: 320px;
+        width: 100%;
+        text-align: left;
+        background-color: white;
+        width: 768px;
+    }
+    
+    #experiencia .imagenAhorcado{
+        width: auto;
+        height: 100%;
+        margin: 0px;
+        padding: 0px;
+        margin-left: 32px;
+    }
+    #experiencia .experienciaDerechaTituloAhorcado{
+        width: 100%;
+        margin-left: 32px;
+    }
+    #experiencia .experienciaIzquierdaDerechaBotones {
+        display: flex;
+        justify-content:flex-start; /* Espacio uniformemente distribuido entre los elementos */
+        align-items: center; /* Alinea los elementos verticalmente en la misma línea de base */
+        padding: 0px;
+        margin-top: 32px;
+    }
+    #experiencia .experienciaDerechaTitulo h3{
+        margin-bottom: 0px;
+        font-family: Raleway;
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 16.44px;
+        text-align: left;
+
+    }
+
+    .btnEncriptar,
+.btnDesencriptar,
+.btnCopiar,
+.btnRepositorio,
+.btnVerDemo,
+.btnRepositorioAhorcado,
+.btnVerDemoAhorcado,
+.btnReiniciar,
+.btnProbarSuerte
+{
+    background-color: #0b02c0;
+    color: white;
+    width: 84px;
+    height: 32px;
+    border-radius: 12px;
+    transition: background-color 0.3s ease;
+}
+#contacto{
+    padding: 0px;
+    margin: 0px;
+    width: 100%;
+    height: 568px;
+}
+#contacto .contactoIzquierdo{
+    display: none;
+    height: 568px;
+}
+#contacto .contactoDerecho{
+        width: 704px;
+        height: 100%;
+        
+    }
+#contacto .textoCaja{
+    width: 100;
+    padding: 0px;
+    margin: 0px;
+}
+#contacto .contactForm{
+    margin: 0px;
+    padding: 0px;
+}
 }
