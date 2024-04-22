@@ -1,7 +1,7 @@
 body {
     font-family: 'Raleway', sans-serif;
     width: 1440px;
-    height: 5020px;
+    height: 4440x;
     background-color: #F5F5F5;
 }
 header{
@@ -166,6 +166,16 @@ main{
     font-size: 32px;
     margin: 32px 0px 0px 152px; 
 }
+#skills .tituloSeccion{
+    width: 1136px;
+    height: 38px;
+    text-align: center;
+    font-size: 32px;
+    font-family: 'Raleway', sans-serif;
+    font-weight:700;
+    margin-bottom: 32px;  
+    
+}
 #skills p{
     width: 1136px;
     height: 38px;
@@ -195,6 +205,7 @@ main{
     padding-left: 16px;
 
 }
+
 /* Aplicar margen izquierdo solo a habilidades excepto el primero */
 #skills .habilidad:not(:first-of-type) {
     margin-left: 4px;
@@ -230,11 +241,11 @@ main{
 #hobbies{
     width: 1136px;
     height: 344px;
-    text-align: center;
+    text-align: left;
     font-size: 32px;
     margin: 0px 0px 0px 152px; 
 }
-#hobbies p{
+#hobbies .tituloSeccion{
     width: 1136px;
     height: 38px;
     text-align: center;
@@ -243,14 +254,13 @@ main{
     font-weight:700;
     margin-bottom: 32px;  
     
-
 }
 /* Estilos para los bloques de habilidades */
 
 /* Aplicar margen izquierdo solo a habilidades excepto el primero */
 
 #hobbies .habilidad:not(:first-of-type) {
-    margin-left: 8px;
+    margin-left: 6px;
 }
 
 /* Estilos para el texto */
@@ -321,6 +331,17 @@ main{
     font-size: 16px;
     font-weight: 500;
     text-align: left;
+}
+#formacionSector .tituloSeccion{
+    width: 1136px;
+    height: 38px;
+    text-align: center;
+    font-size: 32px;
+    font-family: 'Raleway', sans-serif;
+    font-weight:700;
+    line-height: 37.57px;
+    margin-bottom: 32px;  
+    
 }
 #experiencia{
     height: 872px;
@@ -788,6 +809,9 @@ footer p {
         height: 390px;
         margin: 0px;
     }
+    #skills .tituloSeccion {
+        width: 768px;
+    }
     #skills p{
         width: 768px;
         margin-top: 32px;
@@ -807,23 +831,30 @@ footer p {
     }
     
     #skills .imagen1{
+        text-align: left;
         width: 24px;
-        height: auto;
         margin: 0px;
         padding: 0px;
         margin-top: 38px;
+        margin-right: 60%;
     }
     #hobbies{
         height:390px;
         width: 768px;
         margin: 0px;
+
+    }
+    #hobbies .tituloSeccion {
+        width: 768px;
+        margin-top: 32px;
+        margin-bottom: 0px;
     }
     #hobbies h3{
         font-family: 'Raleway', sans-serif;
         font-size: 22px;
         font-weight: 700;
         line-height: 25.83px;
-        margin-top: 32px;
+
     }
     #hobbies .habilidad{
         width: 224px;
@@ -831,6 +862,10 @@ footer p {
         height: 118px;
 
     }
+    #hobbies .habilidades{
+        margin-left: 26px;
+    }
+    
     #hobbies .imagen1{
         width: 24px;
         height: auto;
@@ -849,6 +884,8 @@ footer p {
     #formacionSector .tituloSeccion{
         margin-top: 0px;
         padding: 32px;
+        padding-left: 0px;
+        width: 768px;
     }
     #formacionSector h3{
         font-family: 'Raleway', sans-serif;
@@ -967,8 +1004,9 @@ footer p {
         font-family: Raleway;
         
     }
+    
     #experiencia .experienciaIzquierdaDerecha{
-        width: 277px;
+        width: 50%;
         margin: 0px;
         padding: 0px;
         height: 168px;
@@ -1031,6 +1069,8 @@ footer p {
     #experiencia .experienciaIzquierdaBloqueAhorcado{
         height: 91px;
         width: 768px;
+        justify-content: flex-end;
+
     }
 
     #experiencia .experienciaIzquierdaIzquierdaTitulo{
@@ -1038,8 +1078,17 @@ footer p {
         margin-top: 16px;
     }
     #experiencia .experienciaIzquierdaIzquierda{
-        height: 168px;
-        width: 100%;
+        height: 91px;
+        width: 50%;
+        background-color: #464646;
+        margin-right: 32px;
+    }
+    #comentario{
+        height: 26px;
+    }
+    #encriptador{
+        width: 80%;
+        margin-top: 8px;
     }
     .bloqueAhorcado {
         display: flex;
@@ -1118,6 +1167,7 @@ footer p {
     margin: 0px;
     width: 100%;
     height: 568px;
+    margin-top: 32px;
 }
 #contacto .contactoIzquierdo{
     display: none;
@@ -1137,4 +1187,7 @@ footer p {
     margin: 0px;
     padding: 0px;
 }
+ #contacto .btnFormulario{
+    margin-top: 32px;
+ }
 }
