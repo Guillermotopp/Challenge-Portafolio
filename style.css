@@ -131,7 +131,7 @@ main{
 }
 
 #about {
-    width: 1440px;
+    width: 1136px;
     height: 383px;
     padding: 0px;
     padding-top: 64px;
@@ -147,7 +147,7 @@ main{
     font-weight:bold;   
 }
 #about p{
-    width: 751px;
+    width: auto;
     height: 133px;
     font-family: 'Raleway', sans-serif;
     font-size: 16px;
@@ -278,7 +278,7 @@ main{
 }
 
 #formacionSector {
-    width: 1440px;
+    width: 1136px;
     height: 581px;
     padding: 82px 0px 82px 152px;
     background-color: #EAF2FD;
@@ -519,11 +519,12 @@ main{
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 1440px;
+    width: 1136px;
     height: 788px;
     background-color: #EAF2FD;
     padding-top: 64px;
     margin-top: 64px;
+    margin-left: 152px;
 }
 .contactoIzquierdo{
     width: 464px;
