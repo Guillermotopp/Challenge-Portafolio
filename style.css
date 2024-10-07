@@ -531,12 +531,12 @@ main{
     height: 593px;
 }
 .contactoDerecho{
-    width: 656px;
+    width: auto;
     height: auto;
 
 }
 .textoCaja{
-    width: 656px;
+    width: auto;
     height: 84px;
     margin-left: 16px;
     
@@ -550,17 +550,18 @@ main{
     font-weight: 500;
 }
 .contactForm{
-    width: 656px;
+    width: -webkit-fill-available;
     height:auto;
     margin-left: 16px;
 }
-.contactForm #nombre {width: 656px}
+.contactForm #nombre {
+    width: -webkit-fill-available}
 .contactForm #asunto {
-    width: 656px;
+    width: -webkit-fill-available;
     height: 56px}
 .contactForm input[type="email"],
 .contactForm textarea {
-    width: 656px;
+    width: -webkit-fill-available;
 }
 
 .btnFormulario
@@ -582,21 +583,21 @@ main{
     width: auto;
     border-top-left-radius: 0;
     border-top-right-radius: 0;
-    width: 656px;
+    width: -webkit-fill-available;
 }
 #nombre1 {
     border-bottom: none;
     height: 16px;
     border-bottom-left-radius: 0;
     border-bottom-right-radius: 0;
-    width: 656px;
+    width: -webkit-fill-available;
 }
 #email2 {
     margin-top: -20px; /* Ajusta este valor según sea necesario */
     border-top: none;
     border-top-left-radius: 0;
     border-top-right-radius: 0;
-    width: 656px;
+    width: -webkit-fill-available;
     height: 16px;
 }
 #email1 {
@@ -604,7 +605,7 @@ main{
     color: #0000FF; /* Color azul estándar */
     border-bottom-left-radius: 0;
     border-bottom-right-radius: 0;
-    width: 656px;
+    width: -webkit-fill-available;
     height: 16px;
 }
 .contactForm input,
