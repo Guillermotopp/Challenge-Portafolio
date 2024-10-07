@@ -525,10 +525,11 @@ main{
     padding-top: 64px;
     margin-top: 64px;
     margin-left: 152px;
+    padding-bottom: 32px;
 }
 .contactoIzquierdo{
     width: 464px;
-    height: 593px;
+    height: auto;
 }
 .contactoDerecho{
     width: auto;
@@ -572,6 +573,7 @@ main{
     height: 50px;
     border-radius: 12px;
     transition: background-color 0.3s ease;
+    margin-top: 20px;
 }
 .btnFormulario:Hover{
     background-color: #4272f5; /* Color más claro para el efecto de aclarado */
@@ -670,6 +672,7 @@ footer {
 }
 .rodapie{
     margin-top: 32px;
+    width: 1288px;
 }
 footer p {
     margin: 0;
